@@ -1,0 +1,37 @@
+# Python bytecode and cache
+*.py[cod]
+__pycache__/
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+.env/
+*.env
+
+# Django specific
+db.sqlite3
+local_settings.py
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# IDE / Editor directories
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test and coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Caches
+.cache/
+.mypy_cache/
+.pyre/
